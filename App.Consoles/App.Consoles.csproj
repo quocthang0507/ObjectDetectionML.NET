@@ -9,8 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8DD0726C-610C-432F-82DF-DA252AC0FE30}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App.Console</RootNamespace>
-    <AssemblyName>App.Console</AssemblyName>
+    <RootNamespace>App.Consoles</RootNamespace>
+    <AssemblyName>App.Consoles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -247,6 +247,7 @@
   <ItemGroup>
     <Compile Include="DataStructures\ImageNetData.cs" />
     <Compile Include="DataStructures\ImageNetPrediction.cs" />
+    <Compile Include="OnnxModelScorer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="YoloParser\BoundingBoxDimensions.cs" />

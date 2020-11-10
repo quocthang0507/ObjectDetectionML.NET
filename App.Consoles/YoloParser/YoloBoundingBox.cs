@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace App.Console.YoloParser
+namespace App.Consoles.YoloParser
 {
 	public class YoloBoundingBox
 	{

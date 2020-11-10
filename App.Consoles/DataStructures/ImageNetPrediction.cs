@@ -1,6 +1,6 @@
 ﻿using Microsoft.ML.Data;
 
-namespace App.Console.DataStructures
+namespace App.Consoles.DataStructures
 {
 	public class ImageNetPrediction
 	{

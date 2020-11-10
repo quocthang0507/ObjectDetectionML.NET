@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace App.Console.DataStructures
+namespace App.Consoles.DataStructures
 {
 	public class ImageNetData
 	{
