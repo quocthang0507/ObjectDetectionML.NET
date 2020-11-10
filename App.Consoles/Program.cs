@@ -14,7 +14,7 @@ namespace App.Consoles
 	{
 		static void Main(string[] args)
 		{
-			var assetsRelativePath = @"../../../assets";
+			var assetsRelativePath = @"../../Assets";
 			string assetsPath = GetAbsolutePath(assetsRelativePath);
 			var modelFilePath = Path.Combine(assetsPath, "Model", "TinyYolo2_model.onnx");
 			var imagesFolder = Path.Combine(assetsPath, "images");
