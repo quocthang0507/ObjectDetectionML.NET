@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.ML;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Console
 {
@@ -16,6 +12,9 @@ namespace App.Console
 			var modelFilePath = Path.Combine(assetsPath, "Model", "TinyYolo2_model.onnx");
 			var imagesFolder = Path.Combine(assetsPath, "images");
 			var outputFolder = Path.Combine(assetsPath, "images", "output");
+
+			MLContext mlContext = new MLContext();
+
 		}
 
 		public static string GetAbsolutePath(string relativePath)
