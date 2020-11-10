@@ -252,6 +252,7 @@
     <Compile Include="YoloParser\BoundingBoxDimensions.cs" />
     <Compile Include="YoloParser\DimensionsBase.cs" />
     <Compile Include="YoloParser\YoloBoundingBox.cs" />
+    <Compile Include="YoloParser\YoloOutputParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
